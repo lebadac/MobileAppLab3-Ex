@@ -37,9 +37,9 @@ class MainActivity : AppCompatActivity() {
         val listView = findViewById<ListView>(R.id.lvItems)
 
         val arrayOfUsers = arrayListOf(
-            User("Harry", "San Diego"),
-            User("Marla", "San Francisco"),
-            User("Sarah", "San Marco")
+            User("Tuyet Mai", "Ho Chi Minh"),
+            User("Quynh Tien", "Ho Chi Minh"),
+            User("Ba Chau", "Binh Dinh")
         )
 
         // Set up the adapter for ListView
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         listView.adapter = usersAdapter
 
         // Add a new user dynamically
-        val newUser = User("Nathan", "San Diego")
+        val newUser = User("Gia Hung", "Ho Chi Minh")
         usersAdapter.add(newUser)
     }
 }
