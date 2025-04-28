@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         val arrayOfUsers = arrayListOf(
             User("Tuyet Mai", "Ho Chi Minh"),
             User("Quynh Tien", "Ho Chi Minh"),
-            User("Ba Chau", "Binh Dinh")
+            User("Bao Chau", "Binh Dinh")
         )
 
         // Set up the adapter for ListView
